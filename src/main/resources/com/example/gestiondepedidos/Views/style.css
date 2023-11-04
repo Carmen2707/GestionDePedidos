@@ -36,8 +36,8 @@
     -fx-border-color: blue;
 }
 
-.tabla {
-
+.alert .dialog-pane {
+    -fx-pref-height: 400px; /* Ajusta la altura máxima según tus necesidades */
 }
 
 .tabla .column-header {

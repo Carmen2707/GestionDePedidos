@@ -11,4 +11,5 @@ module com.example.gestiondepedidos {
     opens com.example.gestiondepedidos.Usuario to javafx.fxml;
     opens com.example.gestiondepedidos.Pedido to javafx.base;
     opens com.example.gestiondepedidos.Items to javafx.base;
+    opens com.example.gestiondepedidos.Productos to javafx.base;
 }

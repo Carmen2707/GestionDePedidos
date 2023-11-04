@@ -9,10 +9,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
@@ -36,10 +33,12 @@ public class VentanaPrincipal implements Initializable {
     private TableColumn idColumnUsuario;
     @javafx.fxml.FXML
     private TableColumn idColumnTotal;
-
+    @javafx.fxml.FXML
+    private Button infoUsuario;
 
     List<Pedido> listaPedidos = pedidosbdd(userId);
     public static Long userId;
+
 
     public static void setUserId(Long userId) {
 
@@ -86,7 +85,6 @@ public class VentanaPrincipal implements Initializable {
     @javafx.fxml.FXML
     public void click(Event event) {
         if (itemsController == null) {
-            // Inicializa itemsController aquí
             itemsController = new ItemsController();
         }
         Pedido selectedPedido = tabla.getSelectionModel().getSelectedItem();
@@ -95,5 +93,17 @@ public class VentanaPrincipal implements Initializable {
             System.out.println(tabla.getSelectionModel().getSelectedItem());
             HelloApplication.detallesPedido("Views/items-view.fxml");
         }
+    }
+
+    @javafx.fxml.FXML
+    public void infoUsuario(ActionEvent actionEvent) {
+        UsuarioDAOImp usuarioDAO = new UsuarioDAOImp(DBConnection.getConnection());
+        Usuario nombreUsuario = usuarioDAO.load(userId);
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Información de la ventana principal");
+        alert.setHeaderText("¡Hola " + nombreUsuario.getNombre()+"!"+ "\n"+ "El correo con el que te registraste es: "+nombreUsuario.getEmail());
+        alert.setContentText("En esta ventana puedes ver tus pedidos realizos."+"\n"+ "¡Para ver los detalles de tu pedido pulsa sobre él!");
+        alert.showAndWait();
     }
 }
