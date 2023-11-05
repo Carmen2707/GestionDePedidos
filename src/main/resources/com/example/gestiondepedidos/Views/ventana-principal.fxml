@@ -80,9 +80,6 @@
                     <FlowPane.margin>
                         <Insets left="780.0" />
                     </FlowPane.margin>
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
                 </Button>
             </children>
         </FlowPane>

@@ -74,7 +74,6 @@ public class LoginController implements Initializable {
         if (usuario != null) {
             VentanaPrincipalController.setUserId(usuario.getId());
             App.ventanaPrincipal("Views/ventana-principal.fxml");
-            info.setText("Usuario correcto");
         } else {
             info.setText("Usuario o contraseña incorrecto");
             txtUsuario.setText("");
