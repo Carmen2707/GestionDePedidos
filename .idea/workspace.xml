@@ -5,34 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31808e7-ba95-49a6-a4a3-aa769adcb1d6" name="Changes" comment="fin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/ItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/PedidoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/ItemDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/ItemDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/ItemDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/ItemsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/PedidoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/PedidoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/PedidoDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/ProductoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/ProductoDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/UsuarioDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/UsuarioDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/VentanaPrincipalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/items-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/items-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/ventana-principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/ventana-principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/img/fondo-login.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/App.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/DBConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/controllers/ItemsController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/controllers/LoginController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/controllers/VentanaPrincipalController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/controllers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/controllers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Items/Item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Items/ItemDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Items/ItemDAOImp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Items/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Items/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Pedido/Pedido.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Pedido/PedidoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Pedido/PedidoDAOImp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Pedido/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Pedido/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Productos/Producto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Productos/ProductoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Productos/ProductoDAOImp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Productos/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Productos/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Usuario/Usuario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Usuario/UsuarioDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Usuario/UsuarioDAOImp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Usuario/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/domain/Usuario/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/com/example/gestiondepedidos/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/com.example.gestiondepedidos/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/type-search-index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +164,7 @@
       <workItem from="1699031903368" duration="19842000" />
       <workItem from="1699093242313" duration="17971000" />
       <workItem from="1699127615428" duration="11016000" />
-      <workItem from="1699181151150" duration="14877000" />
+      <workItem from="1699181151150" duration="15188000" />
     </task>
     <task id="LOCAL-00001" summary="fin">
       <option name="closed" value="true" />
@@ -149,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699141650449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fin">
+      <option name="closed" value="true" />
+      <created>1699205103037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699205103038</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
