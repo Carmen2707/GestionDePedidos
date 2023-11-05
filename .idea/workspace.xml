@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31808e7-ba95-49a6-a4a3-aa769adcb1d6" name="Changes" comment="fin">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/img/escritorio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/img/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/PedidoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/ItemsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/VentanaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/ItemDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Items/ItemDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Items/ItemDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/ItemsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/PedidoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Pedido/PedidoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Pedido/PedidoDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/ProductoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Productos/ProductoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Productos/ProductoDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/Usuario/UsuarioDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/domain/Usuario/UsuarioDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestiondepedidos/controllers/VentanaPrincipalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/items-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/items-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestiondepedidos/Views/login.fxml" afterDir="false" />
@@ -52,29 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/karme/IdeaProjects/GestionDePedidos/src/main/java/com/example/gestiondepedidos&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/karme/IdeaProjects/RetoConjunto-JHorge&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/karme/IdeaProjects/GestionDePedidos/src/main/java/com/example/gestiondepedidos",
+    "last_opened_file_path": "C:/Users/karme/IdeaProjects/GestorJuegos/GestorJuegos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karme\IdeaProjects\GestionDePedidos\src\main\resources\com\example\gestiondepedidos\img" />
@@ -87,8 +102,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.gestiondepedidos.HelloApplication" />
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gestiondepedidos.App" />
       <module name="GestionDePedidos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +122,8 @@
       <workItem from="1698952031220" duration="1357000" />
       <workItem from="1699031903368" duration="19842000" />
       <workItem from="1699093242313" duration="17971000" />
-      <workItem from="1699127615428" duration="10990000" />
+      <workItem from="1699127615428" duration="11016000" />
+      <workItem from="1699181151150" duration="14877000" />
     </task>
     <task id="LOCAL-00001" summary="fin">
       <option name="closed" value="true" />
@@ -125,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699111216427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fin">
+      <option name="closed" value="true" />
+      <created>1699141650449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699141650449</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

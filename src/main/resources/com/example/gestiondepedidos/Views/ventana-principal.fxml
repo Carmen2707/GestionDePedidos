@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="ventana2" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondepedidos.VentanaPrincipal">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="ventana2" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondepedidos.controllers.VentanaPrincipalController">
     <center>
         <TableView fx:id="tabla" onMouseClicked="#click" styleClass="tabla" stylesheets="@style.css" BorderPane.alignment="CENTER">
             <columns>
@@ -31,58 +31,61 @@
         </TableView>
     </center>
     <top>
-      <FlowPane>
-         <BorderPane.margin>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </BorderPane.margin>
-         <children>
-              <VBox>
-                  <children>
-                      <Label fx:id="lblUsuario" text="Usuario" textFill="WHITE">
-                          <font>
-                              <Font name="System Bold" size="24.0" />
-                          </font>
-                      </Label>
-                      <Label text="Tus pedidos..." textFill="WHITE">
-                          <font>
-                              <Font size="24.0" />
-                          </font>
-                      </Label>
-                  </children>
-              </VBox>
-            <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/escritorio.png" />
-               </image>
-               <FlowPane.margin>
-                  <Insets left="700.0" />
-               </FlowPane.margin>
-            </ImageView>
-         </children>
-      </FlowPane>
+        <FlowPane>
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+            <children>
+                <VBox>
+                    <children>
+                        <Label fx:id="lblUsuario" text="Usuario" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label text="Tus pedidos..." textFill="WHITE">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+                <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../img/escritorio.png" />
+                    </image>
+                    <FlowPane.margin>
+                        <Insets left="700.0" />
+                    </FlowPane.margin>
+                </ImageView>
+            </children>
+        </FlowPane>
     </top>
     <bottom>
-      <FlowPane BorderPane.alignment="TOP_RIGHT">
-         <BorderPane.margin>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-         </BorderPane.margin>
-         <children>
-            <Button fx:id="infoUsuario" mnemonicParsing="false" onAction="#infoUsuario" styleClass="buttonVolver" stylesheets="@style.css">
-               <graphic>
-                  <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../img/i.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-              <Button fx:id="logout" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#logout" styleClass="buttonLogout" stylesheets="@style.css" text="LOGOUT">
-               <FlowPane.margin>
-                  <Insets left="780.0" />
-               </FlowPane.margin>
-              </Button>
-         </children>
-      </FlowPane>
+        <FlowPane BorderPane.alignment="TOP_RIGHT">
+            <BorderPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </BorderPane.margin>
+            <children>
+                <Button fx:id="infoUsuario" mnemonicParsing="false" onAction="#infoUsuario" styleClass="buttonVolver" stylesheets="@style.css">
+                    <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/i.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="logout" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#logout" styleClass="buttonLogout" stylesheets="@style.css" text="LOGOUT">
+                    <FlowPane.margin>
+                        <Insets left="780.0" />
+                    </FlowPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+                </Button>
+            </children>
+        </FlowPane>
     </bottom>
     <padding>
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />

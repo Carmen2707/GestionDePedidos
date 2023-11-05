@@ -11,8 +11,8 @@
 }
 
 .buttonLogout {
-    -fx-background-color: blue; /* color de fondo */
-    -fx-text-fill: white; /* color de fuente hover */
+    -fx-background-color: blue;
+    -fx-text-fill: white;
 
     -fx-padding: 16px 20px;
     -fx-background-radius: 50px;
@@ -27,17 +27,16 @@
 
 .buttonLogout:hover {
 
-    -fx-background-color: white; /* color de fondo */
-    -fx-text-fill: blue; /* color de fuente */
-
+    -fx-background-color: white;
+    -fx-text-fill: blue;
     -fx-padding: 16px 20px;
-    -fx-background-radius: 50px; /* redondear bordes */
+    -fx-background-radius: 50px;
     -fx-border-radius: 50px;
     -fx-border-color: blue;
 }
 
 .alert .dialog-pane {
-    -fx-pref-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+    -fx-pref-height: 400px;
 }
 
 .tabla .column-header {

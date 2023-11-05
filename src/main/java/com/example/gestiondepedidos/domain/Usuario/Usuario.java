@@ -1,4 +1,4 @@
-package com.example.gestiondepedidos.Usuario;
+package com.example.gestiondepedidos.domain.Usuario;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+/**
+ * La clase Usuario contiene los datos de un usuario. Cada usuario tiene su id, nombre, contraseña y email.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
