@@ -1,0 +1,7 @@
+module:com.example.gestiondepedidos
+com.example.gestiondepedidos
+com.example.gestiondepedidos.controllers
+com.example.gestiondepedidos.domain.Items
+com.example.gestiondepedidos.domain.Pedido
+com.example.gestiondepedidos.domain.Productos
+com.example.gestiondepedidos.domain.Usuario
